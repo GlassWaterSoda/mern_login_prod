@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+jspm_packages/
+bower_components/
+web_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage and test outputs
+lib-cov
+coverage
+*.lcov
+.nyc_output
+
+# Build outputs and caches
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.cache/
+.parcel-cache/
+.turbo/
+.vite/
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tsbuildinfo
+*.tgz
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# OS and IDE files (optional)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
